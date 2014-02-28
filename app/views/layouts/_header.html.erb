@@ -16,14 +16,14 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
      
       <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to 'HOME', root_path %></li>
-        <li><%= link_to 'ABOUT', about_path %></li>
+        <li><%= link_to raw('<span class="glyphicon glyphicon-home"></span> HOME'), root_path %></li>
+        <li><%= link_to raw('<span class="glyphicon glyphicon-book"></span> ABOUT'), about_path %></li>
         <% if user_signed_in? %> 
           <li><%= link_to raw('<span class="glyphicon glyphicon-search"></span> NEW PIN'), new_pin_path %></li>
-          <li><%= link_to 'ACCOUNT SETTING', edit_user_registration_path %></li>
-          <li><%= link_to 'LOG OUT', destroy_user_session_path, method: :delete %></li>
+          <li><%= link_to raw('<span class="glyphicon glyphicon-wrench"></span> ACCOUNT SETTING'), edit_user_registration_path %></li>
+          <li><%= link_to raw('<span class="glyphicon glyphicon-remove-circle"></span> LOG OUT'), destroy_user_session_path, method: :delete %></li>
           <% else %>
-          <li><%= link_to 'SIGN IN', new_user_session_path %></li>
+          <li><%= link_to raw('<span class="glyphicon glyphicon-pencil"></span> LOG IN'), new_user_session_path %></li>
 
         <% end %>
       </ul>
