@@ -3,30 +3,36 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
+About this project
+I built this site to stay up to date on my Rails skills.
+Technical info:
+Framework:
 
-* Ruby version
+Rails 4.0
+Ruby 2.0
+ActiveRecord
 
-* System dependencies
+Gems being used:
+Twitter Bootstrap(Front end framework)
+Devise 3.0 (site security)
+Paperclip 3.0(file attachement library)
+Masonry(grid layout library)
+Amazon Web Service AWS 1.2 (online storage of images)
+Will Paginate(Pagination library)
+Will Paginate-Bootstrap(Intergrates Twitter Bootstrap to Will-Paginate)
+Coffee-Rails(support for use of coffee script)
 
-* Configuration
+Development enviroments using:
+SQLite3
 
-* Database creation
+Production enviroments using:
+Postgres
 
-* Database initialization
+Deployed to:
+Heroku:markpinteresting.herokuapp.com
 
-* How to run the test suite
+Custom Domain and Redirect by:
+dnsimple: markpinterestingapp.com
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
-
-# One month Rails
-This is the pintersting 
-[*One Month Rails*]
+Code Available at:
+Github
